@@ -50,11 +50,41 @@ nav ul li a: hover {
 	width: calc(100% / 2);
 }
 
-main {
-	width: 600px;
+@media (min-width: 950px) main {
+	float: left;
+	margin-right: 3.5em;
+	width: calc(100% / 3 * 2);
 }
 
 #content {
-	background-color: #bcb3a4;
+	background-color: #c8bda9;
 	padding: 5px;
+}
+
+@media (min-width: 950px) #swatches article {
+	float: right;
+	margin-left: 3.5em;
+	width: calc(100% / 3);
+}
+
+#swatches article {
+	padding: 0.5em;
+}
+
+#primary {
+	background-color: #c8bda8;
+	width: 32%;
+	margin: 0.5em;
+}
+
+#secondary {
+	background-color: #c8bda9;
+	width: 32%;
+	margin: 0.5em;
+}
+
+#tirciary {
+	background-color: #c8bda9;
+	width: 32%;
+	margin: 0.5em;
 }
