@@ -26,12 +26,35 @@ nav {
 nav ul {
 	margin: 0;
 	padding: 0.5em 0.5em;
+}
+
+nav ul li {
+	background-color: #988f80;
+	display: inline;
 	list-style: none;
 }
 
 nav ul li a {
-	display: block;
-	line-height: 50px;
 	text-decoration: none;
 	text-align: center;
+	color: #ffffff;
+	margin: 10px;
+}
+
+nav ul li a: hover {
+	background-color: #fda71c;
+}
+
+@media (min-width: 600px) nav li {
+	display: inline-block;
+	width: calc(100% / 2);
+}
+
+main {
+	width: 600px;
+}
+
+#content {
+	background-color: #bcb3a4;
+	padding: 5px;
 }
