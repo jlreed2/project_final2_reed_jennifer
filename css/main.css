@@ -3,7 +3,6 @@ body {
 	padding: 0;
 	background-image: url("../img/brick_and_plaster_texture.png");
 	background-size: 100%;
-	repeat: none;
 	font-family: 'Italiana', serif;
 }
 
@@ -26,23 +25,25 @@ nav {
 nav ul {
 	margin: 0;
 	padding: 0.5em 0.5em;
+	list-style: none;
+	line-height: normal;
 }
 
 nav ul li {
 	background-color: #988f80;
-	display: inline;
-	list-style: none;
+	display: inline-block;
 }
 
 nav ul li a {
 	text-decoration: none;
 	text-align: center;
 	color: #ffffff;
-	margin: 10px;
+	margin: 15px 10px;
+	padding: 10px 15px;
 }
 
-nav ul li a: hover {
-	background-color: #fda71c;
+li:hover {
+	background-color: #fdba4e;
 }
 
 @media (min-width: 600px) nav li {
@@ -52,7 +53,8 @@ nav ul li a: hover {
 
 @media (min-width: 950px) main {
 	float: left;
-	margin-right: 3.5em;
+	margin: 3.5em;
+	padding: 0.5em;
 	width: calc(100% / 3 * 2);
 }
 
@@ -61,8 +63,10 @@ nav ul li a: hover {
 	padding: 5px;
 }
 
+h1 {
+	font-family: 'IM Fell English';
+}
 @media (min-width: 950px) #swatches article {
-	float: right;
 	margin-left: 3.5em;
 	width: calc(100% / 3);
 }
@@ -72,19 +76,19 @@ nav ul li a: hover {
 }
 
 #primary {
-	background-color: #c8bda8;
+	background-color: #bcb3a4;
 	width: 32%;
 	margin: 0.5em;
 }
 
 #secondary {
-	background-color: #c8bda9;
+	background-color: #a5825c;
 	width: 32%;
 	margin: 0.5em;
 }
 
 #tirciary {
-	background-color: #c8bda9;
+	background-color: #8b8a8a;
 	width: 32%;
 	margin: 0.5em;
 }
