@@ -71,6 +71,16 @@ h1 {
 	font-family: 'IM Fell English';
 }
 
+#content a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.25em;
+}
+
+#content a:hover {
+	color: #a5825c;
+}
+
 @media (min-width: 950px) #swatches article {
 	margin-left: 3.5em;
 	width: calc(100% / 3);
