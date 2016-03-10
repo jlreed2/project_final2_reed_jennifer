@@ -30,20 +30,19 @@ nav ul {
 }
 
 nav ul li {
-	background-color: #988f80;
-	display: inline-block;
+	background-image: url("../img/dirty_wood_texture.jpg");
+	padding: 0.75em;
+	margin: 0.25em;
 }
 
 nav ul li a {
 	text-decoration: none;
 	text-align: center;
 	color: #ffffff;
-	margin: 15px 10px;
-	padding: 10px 15px;
 }
 
 li:hover {
-	background-color: #fdba4e;
+	box-shadow: 0.15em 0.15em #fdc468;
 }
 
 @media (min-width: 600px) nav li {
@@ -64,12 +63,14 @@ main {
 
 #content {
 	background-color: #c8bda9;
+	opacity: 0.65;
 	padding: 5px;
 }
 
 h1 {
 	font-family: 'IM Fell English';
 }
+
 @media (min-width: 950px) #swatches article {
 	margin-left: 3.5em;
 	width: calc(100% / 3);
@@ -81,19 +82,21 @@ h1 {
 
 #primary {
 	background-color: #bcb3a4;
-	width: 32%;
 	margin: 0.5em;
 }
 
 #secondary {
 	background-color: #a5825c;
-	width: 32%;
 	margin: 0.5em;
 }
 
 #tirciary {
+	background-color: #fdc468;
+	margin: 0.5em;
+}
+
+#fourth {
 	background-color: #8b8a8a;
-	width: 32%;
 	margin: 0.5em;
 }
 
