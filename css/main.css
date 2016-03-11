@@ -75,6 +75,7 @@ main {
 	background-color: #c8bda9;
 	opacity: 0.65;
 	padding: 0.25em;
+	margin: 0.5em;
 }
 
 h1 {
@@ -123,17 +124,29 @@ h1 {
 	}
 	#swatches {
 		float: right;
-		width: calc(100% / 3 - 1em);
+		width: calc(100% / 3 - 2em);
 	}
 }
 
 #imagery {
 	padding: 0.5em;
+	clear: both;
 }
 
-@media (min-width: 600px) #imagery img {
-	float: right;
-	clear: left;
-	margin-left: 3.5em;
-	width: calc(100% / 3 * 2);
+@media (min-width: 350px) {
+	#imagery img {
+		float: right;
+		clear: left;
+		margin: 0.5em auto;
+		width: 100%;
+	}
+}
+
+@media (min-width: 600px) {
+	#imagery img {
+		float: right;
+		clear: left;
+		margin: 0.5em;
+		width: calc(100% / 3 - 1em);
+	}
 }
